@@ -1,0 +1,44 @@
+.navs a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 2.2em 0 0;
+    font-size: 1em;
+    transition: all 300ms;
+}
+
+.navs a:hover{
+    color: #FFA62D;
+}
+
+.icons{
+    color: white; 
+    height: 2em;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2em;
+    align-items: center;
+}
+
+.logo {
+   height: 10vh;
+   margin-left: -19%;
+}
+
+@media (max-width:360px)  { 
+    .navs{
+        display: none;
+    }   
+    .icons{
+        display: none;
+    }
+    .logo{
+        margin: 0;
+    }
+    .navbar{
+        justify-content: left;
+    }
+
+}
